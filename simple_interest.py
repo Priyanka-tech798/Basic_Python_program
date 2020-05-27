@@ -1,15 +1,13 @@
 """
-Simple interest formula is given by:
-Simple Interest = (P x T x R)/100
-Where,
-P is the principle amount
-T is the time and
-R is the rate
+Simple interest formula is given by:  Simple Interest = (P x T x R)/100
+Where,  P is the principle amount
+        T is the time and
+        R is the rate
 """
 
 
-def simple_interest(p,t,r):   
-    si= (p*t*r)/100
+def simple_interest(principle,time,rate):   
+    si= (principle*time*rate)/100
     return si
     
 p,t,r = 1000, 7, 1.5
