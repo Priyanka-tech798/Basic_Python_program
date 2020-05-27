@@ -4,4 +4,8 @@ sum = n1+n2
 print("The sum of {0} and {1} is {2}".format(n1,n2,sum))
 
 
-#Add two number providerd by user input
+#Add two float number providerd by user input
+n1 = float(input("Enter 1st number: "))
+n2 = float(input("Enter 2nd number: "))
+sum = n1+n2
+print("The sum of {0} and {1} is {2}".format(n1,n2,sum))
