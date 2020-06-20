@@ -32,3 +32,16 @@ Enter a value: 8
 6 6 6 6 6 6 6 6
 7 7 7 7 7 7 7 7
 8 8 8 8 8 8 8 8
+
+
+n=int(input("Enter a value: "))
+for i in range(n):
+    print((chr(65+i)+" ")*n)
+    
+Enter a value: 6
+A A A A A A
+B B B B B B
+C C C C C C
+D D D D D D
+E E E E E E
+F F F F F F
