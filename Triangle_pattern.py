@@ -36,4 +36,15 @@ Enter a value: 7
  * * * * * *
 * * * * * * *
 
-
+n=int(input("Enter a value: "))
+for i in range(n):
+    print(" "*i+'* '*(n-i))
+    
+ Enter a value: 7
+* * * * * * *
+ * * * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *   
